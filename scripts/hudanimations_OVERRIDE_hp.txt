@@ -1,0 +1,49 @@
+// Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue			fgcolor		"250 250 250 255"	Linear 0.0 0.0
+	//hp icon
+	Animate	PlayerStatusHealthIcon_Norm 	Alpha		"0"			Linear 0.0 0.0
+	Animate	PlayerStatusHealthIcon_Over 	Alpha		"255"		Linear 0.0 0.0
+	//
+	Animate PlayerStatusHealthValueShadow2	fgcolor		"100 255 0 255"	Linear 0.0 0.0
+	Animate OverhealText					fgcolor		"25 255 25 255"	Linear 0.0 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	Animate	PlayerStatusHealthValue			fgcolor		"0 255 0 255"	Linear 0.0 0.0
+	//hp icon
+	Animate	PlayerStatusHealthIcon_Norm 	Alpha		"255"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthIcon_Over 	Alpha		"0"		Linear 0.0 0.0
+	Animate OverhealText					fgcolor		"25 255 25 0"	Linear 0.0 0.0
+}
+
+// Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthValue			fgcolor		"255 60 30 255" 	Linear 0.0 0.0
+	//change back to "0"
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.0
+	//hp icon
+	Animate	PlayerStatusHealthIcon_Norm 	Alpha		"0"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthIcon_Low 		Alpha		"255"		Linear 0.0 0.0
+	//
+	Animate PlayerStatusHealthValueShadow2	fgcolor		"255 0 0 255"	Linear 0.0 0.0
+	Animate DangerText						fgcolor		"255 25 25 255"	Linear 0.0 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	Animate	PlayerStatusHealthValue			fgcolor		"250 250 250 255"	Linear 0.0 0.0
+	//hp icon
+	Animate	PlayerStatusHealthIcon_Norm 	Alpha		"255"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthIcon_Low 		Alpha		"0"		Linear 0.0 0.0
+	//
+	Animate PlayerStatusHealthValueShadow2	fgcolor		"0 255 0 0"	Linear 0.0 0.0
+	Animate DangerText						fgcolor		"255 25 25 0"	Linear 0.0 0.0
+}
+
+//"100 255 0 255"
+//"225 255 180 255"

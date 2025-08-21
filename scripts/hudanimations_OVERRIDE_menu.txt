@@ -1,0 +1,135 @@
+//===========================================
+event TrainingPressSpacebarBlink // STOP BLINKING
+{
+	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.0 0.1
+	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.2 0.1
+		
+	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.4 0.1
+	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.6 0.1
+	
+	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 0.8 0.1
+	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 1.0 0.1
+	
+	Animate	PressSpacebarToContinue 	Alpha		"255"		Linear 1.2 0.1
+
+	RunEvent TrainingPressSpacebarBlinkLoop		3.0
+}
+
+event TrainingPressSpacebarBlinkLoop
+{
+	RunEvent TrainingPressSpacebarBlink			0.0
+}
+
+event TrainingPressSpacebarBlinkStop
+{
+	StopEvent TrainingPressSpacebarBlink			0.0
+	StopEvent TrainingPressSpacebarBlinkLoop 		0.0
+}
+
+//===========================================
+
+event IntroMovieContinueBlink // STOP BLINKING
+{
+	Animate	continue 	Alpha		"255"		Linear 0.0 0.1
+	Animate	continue 	Alpha		"255"		Linear 0.2 0.1
+		
+	Animate	continue 	Alpha		"255"		Linear 0.4 0.1
+	Animate	continue 	Alpha		"255"		Linear 0.6 0.1
+	
+	Animate	continue 	Alpha		"255"		Linear 0.8 0.1
+	Animate	continue 	Alpha		"255"		Linear 1.0 0.1
+	
+	Animate	continue 	Alpha		"255"		Linear 1.2 0.1
+
+	RunEvent IntroMovieContinueBlinkLoop		2.0
+}
+
+event IntroMovieContinueBlinkLoop
+{
+	RunEvent IntroMovieContinueBlink			0.0
+}
+
+event IntroMovieContinueBlinkStop
+{
+	StopEvent IntroMovieContinueBlink			0.0
+	StopEvent IntroMovieContinueBlinkLoop 		0.0
+}
+
+//===========================================
+
+event HasMOTDBlink // STOP BLINKING
+{
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.2 0.1
+		
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.6 0.1
+	
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.0 0.1
+	
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
+
+	RunEvent HasMOTDBlinkLoop		2.0
+}
+
+event HasMOTDBlinkLoop
+{
+	RunEvent HasMOTDBlink			0.0
+}
+
+event HasMOTDBlinkStop
+{
+	StopEvent HasMOTDBlink				0.0
+	StopEvent HasMOTDBlinkLoop 		0.0
+	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+}
+
+//===========================================
+
+event HasNotificationsBlink //STOP ANNOYING BLINKING
+{
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.2 0.1
+		
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.6 0.1
+	
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.0 0.1
+	
+	Animate	Notifications_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
+
+	RunEvent HasNotificationsBlinkLoop		2.0
+}
+//===========================================
+
+event NotificationsPresentBlink // STOP BLINKING
+{
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.2 0.1
+		
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.4 0.1
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.6 0.1
+	
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.8 0.1
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 1.0 0.1
+	
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 1.2 0.1
+
+	RunEvent NotificationsPresentBlinkLoop		2.0
+}
+
+event NotificationsPresentBlinkLoop
+{
+	RunEvent NotificationsPresentBlink			0.0
+}
+
+event NotificationsPresentBlinkStop
+{
+	StopEvent NotificationsPresentBlink				0.0
+	StopEvent NotificationsPresentBlinkLoop 		0.0
+	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
+}
+//==================
+// STOP MOVING

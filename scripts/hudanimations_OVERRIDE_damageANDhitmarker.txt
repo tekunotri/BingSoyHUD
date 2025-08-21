@@ -1,0 +1,57 @@
+event DamagedPlayer
+{
+	//Animate CrosshairBSHit FgColor "255 0 0 255" Linear 0.0 0.00001 //dmg col col_hl1_orghl_active_o
+	//Animate CrosshairBSHit FgColor "col_hl1_orghl_active_o" Linear 0.0 0.9 //ch default col col_hl1_orghl_o
+	 
+	//Animate classmodelpanelBG ypos "r90" Linear 0.0 0.00001 //dmg col
+	//Animate classmodelpanelBG ypos "r92" Linear 0.0 0.9 //ch default col
+	
+	////Animate HitMarker Alpha "255" Linear 0.0 0.00001 //dmg col
+	////Animate HitMarker Alpha "0" Accel 0.05 0.1 //ch default col 0.5
+	
+	//Animate HitMarker Alpha "255" Linear 0.0 0.1 //dmg col
+	//Animate HitMarker Alpha "0" Accel 0.05 0.1 //ch default col 0.5
+	
+	
+	////Animate HitMarker Alpha "255" Linear 0.0 0.00001 //dmg col
+	////Animate HitMarker Alpha "0" Accel 0.1 0.00001 //ch default col 0.5
+	
+	Animate HitMarker Alpha "255" Linear 0.0 0.00001 //dmg col
+	Animate HitMarker Alpha "0" Accel 0.1 0.00001 //ch default col 0.5
+	
+	Animate HitMarker_Outline Alpha "255" Linear 0.0 0.00001 //dmg col
+	Animate HitMarker_Outline Alpha "0" Accel 0.1 0.00001 //ch default col 0.5
+	
+	//Animate DamageAccountValue FgColor "255 50 50 255" Linear 0.0 0.00001 //dmg col
+	//Animate DamageAccountValue FgColor "200 100 100 255" Accel 0.05 0.1 //ch default col 0.5
+	
+	//red
+	//Animate DamageAccountValue FgColor "255 50 50 255" Linear 0.0 0.00001 //dmg col
+	//Animate DamageAccountValue FgColor "128 128 128 255" Accel 0.1 0.00001 //ch default col 0.5
+	
+	Animate HealthAccountValueShadow FgColor "255 255 255 255" Linear 0.0 0.00001 //dmg col
+	Animate HealthAccountValueShadow FgColor "0 0 0 255" Accel 0.1 0.00001 //ch default col 0.5
+	
+	Animate DamageAccountValueShadow FgColor "255 255 255 255" Linear 0.0 0.00001 //dmg col
+	Animate DamageAccountValueShadow FgColor "0 0 0 255" Accel 0.1 0.00001 //ch default col 0.5
+	
+	//in game rolling damage 69 text waelements to alpha but no bow charge event to use
+	
+	//Animate CrosshairBSHitCompact1 Alpha "255" Linear 0.0 0.00001 //dmg col
+	//Animate CrosshairBSHitCompact1 Alpha "0" Accel 0.05 0.1 //ch default col 0.5
+	
+	//Animate CrosshairBSHitCompact2 Alpha "255" Linear 0.0 0.00001 //dmg col
+	//Animate CrosshairBSHitCompact2 Alpha "0" Accel 0.05 0.1 //ch default col 0.5
+	
+	// empty
+	// crosshair damage tick
+	//Animate <Crosshair> FgColor dmg col Linear 0 0
+	//Animate <Crosshair> FgColor ch col Linear 0 0
+	//Animate HudCrosshair FgColor dmgCol Linear 0.0 0.00001
+	//Animate HudCrosshair FgColor defaultchCol Linear 0.2 0.20001
+	//Animate HudCrosshair FgColor "255 0 0 255" Linear 0.0 0.00001
+	//Animate HudCrosshair FgColor "0 0 0 0" Linear 0.2 0.20001
+	
+	//Animate crosshair_default FgColor "255 0 0 255" Linear 0.0 0.00001
+	//Animate crosshair_default FgColor "0 0 0 0" Linear 0.2 0.20001
+}

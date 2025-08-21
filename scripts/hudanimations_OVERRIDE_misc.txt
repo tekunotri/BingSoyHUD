@@ -1,0 +1,73 @@
+//===========================================
+//ctf intelligence get image
+event FlagOutlineHide
+{
+	Animate OutlineImage	Alpha		"0"				Linear 0.0 0.0
+}
+
+// Local player flag pickup/drop
+event FlagOutline
+{
+	RunEvent FlagOutlineHide 0.0
+	Animate OutlineImage	Alpha		"255"			Linear 0.0 0.01
+	
+	Animate OutlineImage	Position	"c-60 r137"		Linear 0.0 0.0
+	Animate OutlineImage	Size		"50 25"			Linear 0.0 0.0
+
+	Animate OutlineImage	Position	"c-60 r137"		Linear 0.0 0.0
+	Animate OutlineImage	Size		"50 25"			Linear 0.0 0.0
+	
+	Animate OutlineImage	Alpha		"0"				Linear 1.0 0.0
+}
+
+//===========================================
+
+event CompetitiveGame_LowerChatWindow
+{
+	Animate HudChat ypos 360 Accel 0 0
+}
+//r140
+
+event CompetitiveGame_RestoreChatWindow // GAME CHAT
+{
+	Animate HudChat xpos -7 Accel 0 0
+	Animate HudChat ypos r160 Accel 0 0
+}
+//275
+
+event HudTournament_MoveChatWindow
+{
+	RunEvent CompetitiveGame_LowerChatWindow 0
+	RunEvent CompetitiveGame_RestoreChatWindow 0
+}
+
+event HudTournament_ShowTimerDefault
+{
+	Animate CountdownLabel ypos 366 Linear 0 0
+	Animate CountdownLabelShadow ypos 366 Linear 0 0
+
+	SetVisible CountdownBG  1 0
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
+}
+
+event HudReadyPulse
+{
+	Animate	TournamentInstructionsLabel 	FgColor		"colGenRed"		Linear 0.0 0.0
+	Animate	TournamentInstructionsLabel 	FgColor		"colGenRed"		Linear 0.0 0.0
+
+	RunEvent HudReadyPulseLoop	10.0
+}
+
+event HudReadyPulseLoop
+{
+	RunEvent HudReadyPulse			0.0
+}
+
+event HudReadyPulseEnd
+{
+	Animate	TournamentInstructionsLabel 	FgColor		"colGenGreen"		Linear 0.0 0.0
+	
+	StopEvent HudReadyPulse			0.0
+	StopEvent HudReadyPulseLoop		0.0
+}

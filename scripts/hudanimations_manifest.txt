@@ -1,0 +1,16 @@
+hudanimations_manifest
+{
+
+	"file"		"scripts/hudanimations.txt"
+	//custom
+	"file"		"scripts/hudanimations_OVERRIDE_menu.txt"
+	"file"		"scripts/hudanimations_OVERRIDE_hp.txt"
+	"file"		"scripts/hudanimations_OVERRIDE_ammo.txt"
+	"file"		"scripts/hudanimations_OVERRIDE_damageANDhitmarker.txt"
+	"file"		"scripts/hudanimations_OVERRIDE_spydisguise.txt"
+	"file"		"scripts/hudanimations_OVERRIDE_matchstatusrespawn.txt"
+	/////////
+	"file"		"scripts/hudanimations_OVERRIDE_misc.txt"
+	/////////
+	"file"		"scripts/hudanimations_tf.txt"
+}

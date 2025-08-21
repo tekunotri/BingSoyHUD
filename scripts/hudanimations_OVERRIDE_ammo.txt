@@ -1,0 +1,49 @@
+event HudLowAmmoPulse
+{
+	//go away - DISABLE
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"		Linear 0.0 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
+	//Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
+	//Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
+	
+	Animate AmmoInClip 						FgColor	"255 175 0 255"			Linear 0.0 0.0
+	Animate AmmoInReserve 					FgColor "200 140 0 255"  		Linear 0.0 0.0
+	Animate AmmoNoClip 						FgColor "255 255 128 255"		Linear 0.0 0.0
+	
+	Animate LowAmmoWarning 					FgColor "255 25 25 255"		Linear 0.0 0.0
+
+	RunEvent HudLowAmmoPulseLoop	0.25
+	//
+	//Animate	AmmoInClipShadow2		FgColor	"255 255 255 255"		Linear 0.0 0.0
+	//Animate	AmmoNoClipShadow2		FgColor	"255 255 255 255"		Linear 0.0 0.0
+}
+
+// call to loop HudLowAmmoPulse
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+// reset to normal colors
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+	Animate AmmoInClip 						FgColor	"255 175 0 255"			Linear 0.0 0.0
+	Animate AmmoInReserve 					FgColor "175 200 0 255"  		Linear 0.0 0.0
+	Animate AmmoNoClip 						FgColor "255 175 0 255"			Linear 0.0 0.0
+	
+	Animate LowAmmoWarning 					FgColor "255 25 25 0"			Linear 0.0 0.0
+	
+	//
+	//Animate	AmmoInClipShadow2		FgColor	"255 255 255 0"		Linear 0.0 0.0
+	//Animate	AmmoNoClipShadow2		FgColor	"255 255 255 0"		Linear 0.0 0.0
+}
+
+	// Animate AmmoInClip 						FgColor	"255 255 128 255"			Linear 0.0 0.0
+	// Animate AmmoInReserve 					FgColor "255 128 128 255" 			Linear 0.0 0.0
+	// Animate AmmoNoClip 						FgColor "255 255 128 255"			Linear 0.0 0.0
+	
+	// Animate AmmoInClip 						FgColor	"255 216 0 255"			Linear 0.0 0.0
+	// Animate AmmoInReserve 					FgColor "255 64 196 255" 			Linear 0.0 0.0
+	// Animate AmmoNoClip 						FgColor "255 216 0 255"			Linear 0.0 0.0
