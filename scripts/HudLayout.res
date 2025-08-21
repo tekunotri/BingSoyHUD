@@ -432,20 +432,22 @@
 
 	HudDamageIndicator
 	{
-		"MinimumWidth" "8"//"64"
-		"MaximumWidth" "16"//"64"
-		"StartRadius" "50"//"200"
-		"EndRadius" "30"//"160"
-		"MinimumHeight" "8"//"32"
-		"MaximumHeight" "64"//"32"
+		"MinimumWidth" "4"//"8"//"64"
+		"MaximumWidth" "64"//"16"//"64"
+		"StartRadius" "100"//"50"//"200"
+		"EndRadius" "80"//"30"//"160"
+		"MinimumHeight" "8"//"8"//"32"
+		"MaximumHeight" "16"//"64"//"32"
 		"MinimumTime" "5"//"0.25"
 		
 		// MaximumDamage
-		"MaximumTime" "1"//"0.75"
+		"MaximumTime" "10"//"1"//"0.75"
 		// TravelTime
 		"FadeOutPercentage" "0.6"
 		// Noise
 	}
+	//mat_reloadmaterial damageindicator
+	//bind ctrl "mat_reloadmaterial damageindicator"
 
 	HudCommentary
 	{

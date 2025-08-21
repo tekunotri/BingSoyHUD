@@ -110,7 +110,7 @@
         "textAlignment"				"left"
 		"defaultbgColor_override"	"colMenuBtn_Def_Bg"
 		"armedbgColor_override"		"colMenuBtn_Def_BgArm"
-		"depressedFgColor_override"	"colMenuBtn_Def_FgDep" //Fg
+		"depressedFgColor_override"	"colMenuBtn_Def_FgDep"
 		"depressedBgColor_override"	"colMenuBtn_Def_BgDep"
         "xpos"						"100"
         "ypos"						"270"
@@ -127,7 +127,7 @@
         "font"						"fntMenuCustomButtonSmall"
 		"defaultbgColor_override"	"colMenuBtn_Def_Bg"
 		"armedbgColor_override"		"colMenuBtn_Def_BgArm"
-		"depressedFgColor_override"	"colMenuBtn_Def_FgDep" //Fg
+		"depressedFgColor_override"	"colMenuBtn_Def_FgDep"
 		"depressedBgColor_override"	"colMenuBtn_Def_BgDep"
         "xpos"						"0"
         "ypos"						"0"
@@ -147,7 +147,7 @@
         "textAlignment"				"left"
 		"defaultbgColor_override"	"colMenuBtn_Def_Bg"
 		"armedbgColor_override"		"colMenuBtn_Def_BgArm"
-		"depressedFgColor_override"	"colMenuBtn_Def_FgDep" //Fg
+		"depressedFgColor_override"	"colMenuBtn_Def_FgDep"
 		"depressedBgColor_override"	"colMenuBtn_Def_BgDep"
         "xpos"						"160"
         "ypos"						"270"
@@ -164,7 +164,7 @@
         "font"						"fntMenuCustomButtonSmall"
 		"defaultbgColor_override"	"colMenuBtn_Def_Bg"
 		"armedbgColor_override"		"colMenuBtn_Def_BgArm"
-		"depressedFgColor_override"	"colMenuBtn_Def_FgDep" //Fg
+		"depressedFgColor_override"	"colMenuBtn_Def_FgDep"
 		"depressedBgColor_override"	"colMenuBtn_Def_BgDep"
         "xpos"						"0"
         "ypos"						"0"
@@ -184,7 +184,7 @@
         "textAlignment"				"left"
 		"defaultbgColor_override"	"colMenuBtn_Def_Bg"
 		"armedbgColor_override"		"colMenuBtn_Def_BgArm"
-		"depressedFgColor_override"	"colMenuBtn_Def_FgDep" //Fg
+		"depressedFgColor_override"	"colMenuBtn_Def_FgDep"
 		"depressedBgColor_override"	"colMenuBtn_Def_BgDep"
         "xpos"						"220"
         "ypos"						"270"

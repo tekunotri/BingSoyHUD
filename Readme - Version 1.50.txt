@@ -11,10 +11,12 @@
  ███████║██║   ██║██║  ██║                               
  ██╔══██║██║   ██║██║  ██║                               
  ██║  ██║╚██████╔╝██████╔╝                               
- ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ v1.49
+ ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ v1.50
 	a TF2 HUD by Bing Soy
 
 A clean & simple HUD. Made with both gameplay & fragmovies in mind. More customizations to come.
+
++ Customize your HP icon: go to "../BingSoyHUD/materials/hud/Custom HP Icon Skins", copy "health_bg.vtf & health_color.vtf" in any one of the folders there & replace the textures in the "hud" folder.
 
 ➤ See mod page for more info:
 https://gamebanana.com/mods/398210
@@ -31,6 +33,13 @@ https://www.dafont.com/bebas-neue.font
 
 Changelog
 =========
+2025-08-21 - [v1.50] - menu text fix, custom hp icons
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+➤ fixed health account "+" (seen when you collect hp pack)
+➤ hp icon customizations (default cross, cheese, heart)
+➤ menu button font/text visibility issues from game resolution fixed (thanks, V3rt1kal)
+➤ damage indicator texture updated
+
 2025-08-21 - [v1.49] - complete overhaul/revamp
 ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 ➤ Big update, can't think of all stuff edited right now

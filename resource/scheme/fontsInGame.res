@@ -103,6 +103,17 @@ Scheme
 				"weight"	"700"
 			}
 		}
+		"font_hpacc_outlineshadow_plusonly"
+		{
+			"1"
+			{
+				"name"		"hpaccshadow"
+				"tall"		"36"
+				"antialias" "0"
+				"dropshadow"	"0"
+				"weight"	"700"
+			}
+		}
 		///////////////////////////////////////
 		// HEALTH
 		"font_hp"
@@ -149,7 +160,6 @@ Scheme
 				"weight"	"700"
 			}
 		}
-		//
 		"font_hp_outlineshadow2"
 		{
 			"1"
@@ -172,6 +182,117 @@ Scheme
 				"weight"	"700"
 			}
 		}
-		//
+		//AMMO
+		"font_ammo"
+		{
+			"1"
+			{
+				"name"		"VerdanaBoldHUD"
+				"tall"		"46"
+				"antialias" "0"
+				"dropshadow"	"0"
+				"weight"	"700"
+			}
+		}
+		"font_ammo_minmode"
+		{
+			"1"
+			{
+				"name"		"VerdanaBoldHUD"
+				"tall"		"14"
+				"antialias" "0"
+				"dropshadow"	"0"
+				"weight"	"700"
+			}
+		}
+		"font_ammo_outlineshadow"
+		{
+			"1"
+			{
+				"name"		"VerdanaBoldHUD200emDS3DSE"
+				"tall"		"46"
+				"antialias" "0"
+				"dropshadow"	"0"
+				"weight"	"700"
+			}
+		}
+		"font_ammo_outlineshadow_minmode"
+		{
+			"1"
+			{
+				"name"		"VerdanaBoldHUD320em"
+				"tall"		"14"
+				"antialias" "0"
+				"dropshadow"	"0"
+				"weight"	"700"
+			}
+		}
+		"font_ammoinreserve"
+		{
+			"1"
+			{
+				"name"		"VerdanaBoldHUD"
+				"tall"		"42"
+				"antialias" "0"
+				"dropshadow"	"0"
+				"weight"	"700"
+			}
+		}
+		"font_ammoinreserve_minmode"
+		{
+			"1"
+			{
+				"name"		"VerdanaBoldHUD"
+				"tall"		"14"
+				"antialias" "0"
+				"dropshadow"	"0"
+				"weight"	"700"
+			}
+		}
+		"font_ammoinreserve_outlineshadow"
+		{
+			"1"
+			{
+				"name"		"VerdanaBoldHUD200emDS3DSE"
+				"tall"		"42"
+				"antialias" "0"
+				"dropshadow"	"0"
+				"weight"	"700"
+			}
+		}
+		"font_ammoinreserve_outlineshadow_minmode"
+		{
+			"1"
+			{
+				"name"		"VerdanaBoldHUD320em"
+				"tall"		"14"
+				"antialias" "0"
+				"dropshadow"	"0"
+				"weight"	"700"
+			}
+		}
+		//remember alpha
+		"font_ammo_outlineshadow2"
+		{
+			"1"
+			{
+				"name"		"VerdanaBoldHUD200emDS3DSEOL"
+				"tall"		"46"
+				"antialias" "0"
+				"dropshadow"	"0"
+				"weight"	"700"
+			}
+		}
+		"font_ammo_outlineshadow2_minmode"
+		{
+			"1"
+			{
+				"name"		"VerdanaBoldHUD420em"
+				"tall"		"14"
+				"antialias" "0"
+				"dropshadow"	"0"
+				"weight"	"700"
+			}
+		}
 	}
 }

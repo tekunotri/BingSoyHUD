@@ -91,5 +91,11 @@ Scheme
             "font"          "resource/fonts/C64_Pro-STYLE.ttf"
             "name"          "C64 Pro"
         }
+		//fontforge being annoying, "+" is separate font
+        "16"
+        {
+            "font"          "resource/fonts/hpaccshadow.ttf"
+            "name"          "hpaccshadow"
+        }
 	}
 }
